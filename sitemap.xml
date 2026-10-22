@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://aryankhamar.dev/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <image:image><image:loc>https://aryankhamar.dev/images/aryan.webp</image:loc><image:title>Aryan Khamar, full-stack engineer in Ahmedabad</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://aryankhamar.dev/work/cookoncall/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://aryankhamar.dev/images/cookoncall.webp</image:loc><image:title>CookOnCall</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://aryankhamar.dev/work/kalokea/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://aryankhamar.dev/images/kalokea.webp</image:loc><image:title>Kalokea</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://aryankhamar.dev/work/my-solar-sales-pl-system/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aryankhamar.dev/work/shopnearn-qa/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aryankhamar.dev/freelance-full-stack-developer/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+</urlset>

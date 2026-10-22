@@ -1,0 +1,2 @@
+# Send the old Netlify address to the real domain (one copy of the site for search engines)
+https://aryankhamar-portfolio.netlify.app/* https://aryankhamar.dev/:splat 301!

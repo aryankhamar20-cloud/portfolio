@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MY SOLAR Power sales activity and P&amp;L system | Aryan Khamar</title>
+<meta name="description" content="Case study: Aryan Khamar built a secure multi-company sales activity and P&amp;L system for MY SOLAR Power with PHP, PostgreSQL row-level security and an audit log.">
+<link rel="canonical" href="https://aryankhamar.dev/work/my-solar-sales-pl-system/">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<meta name="author" content="Aryan Khamar">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#fbfaf8" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#121110" media="(prefers-color-scheme: dark)">
+<link rel="icon" type="image/svg+xml" href="../../favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<link rel="manifest" href="../../site.webmanifest">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Aryan Khamar">
+<meta property="og:locale" content="en_IN">
+<meta property="og:title" content="MY SOLAR Power sales activity and P&amp;L system | Aryan Khamar">
+<meta property="og:description" content="Case study: Aryan Khamar built a secure multi-company sales activity and P&amp;L system for MY SOLAR Power with PHP, PostgreSQL row-level security and an audit log.">
+<meta property="og:url" content="https://aryankhamar.dev/work/my-solar-sales-pl-system/">
+<meta property="og:image" content="https://aryankhamar.dev/og-image.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Aryan Khamar, full-stack engineer in Ahmedabad, India">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="MY SOLAR Power sales activity and P&amp;L system | Aryan Khamar">
+<meta name="twitter:description" content="Case study: Aryan Khamar built a secure multi-company sales activity and P&amp;L system for MY SOLAR Power with PHP, PostgreSQL row-level security and an audit log.">
+<meta name="twitter:image" content="https://aryankhamar.dev/og-image.jpg">
+<script>
+  (function () {
+    var d = document.documentElement;
+    d.classList.add('js');
+    try {
+      var t = localStorage.getItem('theme');
+      if (t !== 'light' && t !== 'dark') t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      d.setAttribute('data-theme', t);
+    } catch (e) {}
+  })();
+</script>
+<link rel="preload" href="../../fonts/inter.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../../fonts/plus-jakarta-sans.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="../../styles.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://aryankhamar.dev/work/my-solar-sales-pl-system/#webpage",
+      "url": "https://aryankhamar.dev/work/my-solar-sales-pl-system/",
+      "name": "MY SOLAR Power sales activity and P&L system | Aryan Khamar",
+      "description": "Case study: Aryan Khamar built a secure multi-company sales activity and P&L system for MY SOLAR Power with PHP, PostgreSQL row-level security and an audit log.",
+      "inLanguage": "en",
+      "dateModified": "2026-10-22",
+      "isPartOf": {
+        "@id": "https://aryankhamar.dev/#website"
+      },
+      "author": {
+        "@id": "https://aryankhamar.dev/#person"
+      },
+      "about": {
+        "@type": "CreativeWork",
+        "name": "MY SOLAR Power: sales and P&L system",
+        "creator": {
+          "@id": "https://aryankhamar.dev/#person"
+        }
+      },
+      "breadcrumb": {
+        "@id": "https://aryankhamar.dev/work/my-solar-sales-pl-system/#breadcrumb"
+      },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://aryankhamar.dev/og-image.jpg"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://aryankhamar.dev/work/my-solar-sales-pl-system/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Aryan Khamar",
+          "item": "https://aryankhamar.dev/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Work",
+          "item": "https://aryankhamar.dev/#work"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "MY SOLAR Power: sales and P&L system",
+          "item": "https://aryankhamar.dev/work/my-solar-sales-pl-system/"
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<svg class="sprite" aria-hidden="true" focusable="false"><defs>
+<symbol id="i-github" viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></symbol>
+<symbol id="i-linkedin" viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4V8h4v1.98A5.5 5.5 0 0 1 16 8Z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></symbol>
+<symbol id="i-instagram" viewBox="0 0 24 24"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37Z"/><path d="M17.5 6.5h.01"/></symbol>
+<symbol id="i-mail" viewBox="0 0 24 24"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></symbol>
+<symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92Z"/></symbol>
+<symbol id="i-whatsapp" viewBox="0 0 24 24"><path fill="currentColor" stroke="none" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></symbol>
+<symbol id="i-pin" viewBox="0 0 24 24"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></symbol>
+</defs></svg>
+<div class="progress" id="progress" aria-hidden="true"></div>
+
+<header class="site-header" id="top">
+  <div class="wrap bar">
+    <a class="brand" href="../../"><i aria-hidden="true">AK</i><span class="brand-name">Aryan Khamar</span></a>
+    <nav class="nav" id="nav" aria-label="Main">
+      <a href="../../#work">Work</a>
+      <a href="../../#services">Services</a>
+      <a href="../../#experience">Experience</a>
+      <a href="../../#skills">Skills</a>
+      <a href="../../#about">About</a>
+      <a href="../../#contact">Contact</a>
+      <a class="nav-extra" href="tel:+919081444326">Call +91 90814 44326</a>
+    </nav>
+    <div class="bar-actions">
+      <a class="btn btn-primary btn-sm" href="../../Aryan-Khamar-Resume.pdf" download>Resume</a>
+      <button class="icon-btn theme-btn" id="themeBtn" type="button" aria-label="Switch colour theme">
+        <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
+        <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+      </button>
+      <button class="icon-btn menu-btn" id="menuBtn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <section class="case-hero">
+    <div class="wrap">
+      <nav class="crumbs" aria-label="Breadcrumb"><a href="../../">Aryan Khamar</a><span aria-hidden="true">/</span><a href="../../#work">Work</a><span aria-hidden="true">/</span><span aria-current="page">MY SOLAR Power: sales and P&amp;L system</span></nav>
+      <p class="eyebrow">Case study</p>
+      <h1 class="case-title">MY SOLAR Power: sales and P&amp;L system</h1>
+      <p class="case-lead">A 20-person sales team was logging calls, quotes and orders in a single-file prototype. I replaced it with a hosted, multi-company system.</p>
+    </div>
+  </section>
+
+  <section class="case-main">
+    <div class="wrap case-body">
+      <article class="prose">
+        
+        <h2>The problem</h2>
+          <p>The prototype stored everything in one browser. Data was lost when the browser was cleared, anyone with the file could see salaries and margins, simultaneous saves overwrote each other, and nothing recorded who changed what.</p>
+          <h2>What I built</h2>
+          <ul><li>Daily activity entry for each salesperson, split into new and existing customers: calls, connects, leads, follow-ups, quotations and orders.</li><li>Invoices where the server works out cost and margin, so it is never typed in by hand.</li><li>A dashboard, conversion ratios against benchmarks, analytics, daily and monthly P&amp;L, and printable reports with ten charts.</li><li>Settings, masters and user administration, and two companies in one system.</li></ul>
+          <h2>Security and trust</h2>
+          <ul><li>Four roles (admin, manager, staff, viewer) enforced in both the PHP API and the database, so staff never receive margins or salaries.</li><li>An audit log of every create, update and delete.</li><li>Saves that stay safe when two people work at once, money stored as exact decimals, and impossible dates rejected.</li></ul>
+          <h2>How I checked it</h2>
+          <ul><li>A large automated test suite for security, business rules and figures.</li><li>A reference calculator, the SQL and the screen are checked against each other, so all three give the same numbers.</li><li>Twelve monthly workbooks from the client (six months, two companies) were loaded and the figures compared with their own.</li><li>Independent review rounds before launch found and closed critical issues, including a stored XSS.</li></ul>
+          <h2>Delivery</h2>
+          <p>The system runs on the client's own server over HTTPS. Every release ships with a one-line way to undo it.</p><p class="note">This is a private client system, so there is no public link or screenshot. The picture on the home page is an illustration with no client data.</p>
+          
+      </article>
+      <aside class="case-aside" aria-label="Project facts">
+        <div class="aside-card">
+          <dl class="meta-list"><div><dt>Role</dt><dd>Freelance developer</dd></div><div><dt>Since</dt><dd>Oct 2026</dd></div><div><dt>Status</dt><dd>Live</dd></div></dl>
+          <ul class="chips" aria-label="Technology and skills"><li>PHP</li><li>PostgreSQL</li><li>Supabase RLS</li><li>JavaScript</li><li>GitHub CI</li></ul>
+          <div class="aside-cta"><a class="btn btn-ghost" href="../../Aryan-Khamar-Resume.pdf" download>Download resume</a></div>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <section class="alt case-more" aria-labelledby="more-title">
+    <div class="wrap">
+      <h2 id="more-title" class="more-title">More work</h2>
+      <div class="related"><a class="related-card" href="../cookoncall/"><span class="tag">Case study</span><b>CookOnCall</b><span class="link-arrow" aria-hidden="true">→</span></a><a class="related-card" href="../kalokea/"><span class="tag">Case study</span><b>Kalokea</b><span class="link-arrow" aria-hidden="true">→</span></a><a class="related-card" href="../shopnearn-qa/"><span class="tag">Case study</span><b>Shop&#x27;n Earn: quality assurance</b><span class="link-arrow" aria-hidden="true">→</span></a></div>
+      <div class="more-cta"><p>Have a product to build, a store to rebuild or a platform that needs testing?</p><a class="btn btn-grad" href="https://wa.me/919081444326?text=Hi%20Aryan%2C%20I%20saw%20your%20portfolio%20and%20would%20like%20to%20talk%20about%20a%20project." target="_blank" rel="noopener noreferrer">Message on WhatsApp</a> <a class="btn btn-ghost" href="mailto:aryankhamar20@gmail.com">aryankhamar20@gmail.com</a></div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap foot">
+    <span>© <span id="year">2026</span> Aryan Khamar · Ahmedabad, Gujarat, India · Updated October 2026</span>
+    <span class="foot-contact"><a href="tel:+919081444326">+91 90814 44326</a><a href="mailto:aryankhamar20@gmail.com">aryankhamar20@gmail.com</a></span>
+    <ul class="social" aria-label="Find me online"><li><a href="https://github.com/aryankhamar20-cloud" target="_blank" rel="me noopener noreferrer" aria-label="GitHub: github.com/aryankhamar20-cloud" title="GitHub"><svg aria-hidden="true"><use href="#i-github"/></svg></a></li><li><a href="https://linkedin.com/in/aryan-khamar" target="_blank" rel="me noopener noreferrer" aria-label="LinkedIn: linkedin.com/in/aryan-khamar" title="LinkedIn"><svg aria-hidden="true"><use href="#i-linkedin"/></svg></a></li><li><a href="https://wa.me/919081444326?text=Hi%20Aryan%2C%20I%20saw%20your%20portfolio%20and%20would%20like%20to%20talk%20about%20a%20project." target="_blank" rel="me noopener noreferrer" aria-label="WhatsApp: +91 90814 44326" title="WhatsApp"><svg aria-hidden="true"><use href="#i-whatsapp"/></svg></a></li><li><a href="mailto:aryankhamar20@gmail.com" aria-label="Email: aryankhamar20@gmail.com" title="Email"><svg aria-hidden="true"><use href="#i-mail"/></svg></a></li><li><a href="tel:+919081444326" aria-label="Call: +91 90814 44326" title="Call"><svg aria-hidden="true"><use href="#i-phone"/></svg></a></li></ul>
+  </div>
+</footer>
+<a class="fab" href="https://wa.me/919081444326?text=Hi%20Aryan%2C%20I%20saw%20your%20portfolio%20and%20would%20like%20to%20talk%20about%20a%20project." target="_blank" rel="noopener noreferrer" aria-label="Chat with Aryan on WhatsApp"><svg aria-hidden="true"><use href="#i-whatsapp"/></svg></a>
+
+<script src="../../script.js" defer></script>
+</body>
+</html>

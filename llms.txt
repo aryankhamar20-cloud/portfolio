@@ -1,0 +1,42 @@
+# Aryan Khamar
+
+> Freelance full-stack developer based in Ahmedabad, Gujarat, India, available remotely worldwide. Co-founder of CookOnCall. Builds web products and internal business software with Next.js, NestJS and PostgreSQL, and does QA for live platforms. Open to freelance projects and contract work, remotely, for clients in the United States, the UK and Europe, the UAE (Dubai, Abu Dhabi), Australia and across India (Ahmedabad, Mumbai and other cities).
+
+## Key facts
+- Name: Aryan Khamar
+- Role: Full-Stack Engineer; Co-Founder, CookOnCall
+- Location: Ahmedabad, Gujarat, India (UTC+5:30); works remotely with clients worldwide
+- Education: B.Sc. Computer Science (AI & ML), Indus University, Ahmedabad, 2024 to 2027 (expected), CGPA 8.03
+- Certification: Google Cloud skill badge, Prompt Design in Vertex AI (2026)
+- Core stack: TypeScript, Next.js, React, NestJS, PHP, PostgreSQL, Supabase, Razorpay, Redis, Cloudflare, Railway, Sentry
+
+## Work
+- [CookOnCall](https://thecookoncall.com): chef-booking marketplace he co-founded (Mar 2026 to present). Customers, chefs and admins; live Razorpay payments; row-level security and OTP login.
+- [Kalokea](https://kalokea.com): women's fashion store rebuilt from WooCommerce into a custom Next.js and NestJS shop; freelance, maintained by him (Jun 2026 to present).
+- MY SOLAR Power Pvt. Ltd.: internal multi-company sales and P&L system (PHP API, PostgreSQL with row-level security); freelance, remote (Oct 2026 to present). Private client system.
+- [Shop'n Earn](https://shopnearn.in): part-time freelance QA engineer for an e-commerce platform with wallets and referral payouts (Oct 2026 to present).
+- AlgoVista Analytics: AI/ML Engineer Intern, automation department (23 Feb to 25 Mar 2026).
+
+## Case studies
+- [CookOnCall](https://aryankhamar.dev/work/cookoncall/)
+- [Kalokea](https://aryankhamar.dev/work/kalokea/)
+- [MY SOLAR Power: sales and P&L system](https://aryankhamar.dev/work/my-solar-sales-pl-system/)
+- [Shop'n Earn: quality assurance](https://aryankhamar.dev/work/shopnearn-qa/)
+
+## Services
+- Web products from scratch
+- Internal business software
+- E-commerce rebuilds and upkeep
+- QA and release testing
+
+## Pages
+- [Hire a freelance full-stack developer](https://aryankhamar.dev/freelance-full-stack-developer/)
+- [Portfolio](https://aryankhamar.dev/)
+- [Resume (PDF)](https://aryankhamar.dev/Aryan-Khamar-Resume.pdf)
+- [Sitemap](https://aryankhamar.dev/sitemap.xml)
+
+## Contact
+- Email: aryankhamar20@gmail.com
+- WhatsApp: +91 90814 44326 (https://wa.me/919081444326)
+- LinkedIn: https://linkedin.com/in/aryan-khamar
+- GitHub: https://github.com/aryankhamar20-cloud
