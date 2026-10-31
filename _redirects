@@ -1,2 +1,10 @@
 # Send the old Netlify address to the real domain (one copy of the site for search engines)
 https://aryankhamar-portfolio.netlify.app/* https://aryankhamar.dev/:splat 301!
+
+# Consolidate explicit HTML URLs onto the canonical directory URLs.
+/index.html / 301!
+/freelance-full-stack-developer/index.html /freelance-full-stack-developer/ 301!
+/work/cookoncall/index.html /work/cookoncall/ 301!
+/work/kalokea/index.html /work/kalokea/ 301!
+/work/my-solar-sales-pl-system/index.html /work/my-solar-sales-pl-system/ 301!
+/work/shopnearn-qa/index.html /work/shopnearn-qa/ 301!

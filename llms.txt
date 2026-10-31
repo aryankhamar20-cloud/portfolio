@@ -24,10 +24,10 @@
 - [Shop'n Earn: quality assurance](https://aryankhamar.dev/work/shopnearn-qa/)
 
 ## Services
-- Web products from scratch
-- Internal business software
-- E-commerce rebuilds and upkeep
-- QA and release testing
+- [Next.js web application development](https://aryankhamar.dev/freelance-full-stack-developer/#nextjs-development)
+- [Custom business software](https://aryankhamar.dev/freelance-full-stack-developer/#custom-business-software)
+- [WooCommerce to Next.js migration](https://aryankhamar.dev/freelance-full-stack-developer/#woocommerce-migration)
+- [QA and release testing](https://aryankhamar.dev/freelance-full-stack-developer/#qa-testing)
 
 ## Pages
 - [Hire a freelance full-stack developer](https://aryankhamar.dev/freelance-full-stack-developer/)
